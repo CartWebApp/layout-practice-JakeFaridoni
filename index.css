@@ -164,3 +164,167 @@ nav ul li:hover {
     align-self: flex-end;
     margin-bottom: 20px;
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-image: url('layout-01-assets/img13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: #AAA 2px 1px;
+    margin: 0;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 10px;
+    width: 33vw;
+    line-height: 1.75;
+}
+
+.four-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.four-columns article {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    align-items: center;
+    text-align: center;
+}
+
+.four-columns article img {
+    width: 100%;
+}
+
+.four-columns article h3 {
+    color: #666;
+    font-size: 20px;
+}
+
+.four-columns article p {
+    color: #666;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.four-columns a {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: #666 1px solid;
+    border-radius: 5px;
+    color: #666;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.one-big-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+}
+
+.one-big-one article {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+.one-big-one article h3 {
+    color: #666;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.one-big-one article p {
+    color: #666;
+    font-size: 15px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.one-big-one article a {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: #666 1px solid;
+    border-radius: 5px;
+    color: #666;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.contact-form {
+    height: 50vh;
+    background-image: url('layout-01-assets/img14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-form h2 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: #000 2px 2px;
+    margin: 40px 0 20px 0;
+}
+
+.contact-form p {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 50vw;
+    padding: 30px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    width: 50vw;
+    margin-top: 20px;
+}
+
+.contact-form input {
+    background-color: rgba(255, 255, 255, 0.25);
+    
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form #name {
+
+}
+
+.contact-form #email {
+
+}
+
+.contact-form #subject {
+
+}
+
+.contact-form #message {
+
+}
+
+.contact-form #send-btn {
+
+}
