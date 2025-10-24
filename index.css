@@ -78,7 +78,6 @@ nav ul li:hover {
 
 .three-column article img {
     width: 100%;
-    height: auto;
 }
 
 .three-column article h3 {
@@ -293,20 +292,28 @@ nav ul li:hover {
     padding: 30px;
     line-height: 2;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .contact-form form {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 50vw;
     margin-top: 20px;
+    gap: 15px;
 }
 
 .contact-form input {
     background-color: rgba(255, 255, 255, 0.25);
-    
+    color: #000;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.contact-form input::placeholder {
+    color: #000;
+    padding-left: 10px;
 }
 
 .contact-form #name {
@@ -322,9 +329,14 @@ nav ul li:hover {
 }
 
 .contact-form #message {
-
+    flex-basis: 50%;
 }
 
 .contact-form #send-btn {
-
+    width: 15%;
+    line-height: 2;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    border: #fff 1px solid;
 }
